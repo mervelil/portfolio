@@ -27,10 +27,7 @@ import oracle from "./tech/oracle.png";
 import php from "./tech/php.png";
 import py from "./tech/py.png";
 import vue from "./tech/vue.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 import apple from "./company/apple.png";
 import desi from "./company/desi.png";
 import fsm from "./company/fsm.png";
@@ -69,10 +66,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
