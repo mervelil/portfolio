@@ -85,7 +85,7 @@ const Contact = () => {
   <a href='https://github.com/mervelil' target='_blank' rel='noopener noreferrer'>
     <FaGithub className='text-white text-2xl hover:text-primary transition duration-300' />
   </a>
-  <a href='https://www.linkedin.com/in/merve-c-811791200/' target='_blank' rel='noopener noreferrer'>
+   <a href='https://www.linkedin.com/in/merve-celik1/' target='_blank' rel='noopener noreferrer'>
     <FaLinkedin className='text-white text-2xl hover:text-primary transition duration-300' />
   </a>
   <a href='mailto:mervelilith1@gmail.com' target='_blank' rel='noopener noreferrer'>
