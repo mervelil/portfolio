@@ -28,6 +28,7 @@ import {
     tripguide,
     threejs,
     c,
+    mimeda,
     bootstrap,
     flask,
     java,
