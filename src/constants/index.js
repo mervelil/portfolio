@@ -28,7 +28,7 @@ import {
     tripguide,
     threejs,
     c,
-    mimeda,
+    // mimeda,
     bootstrap,
     flask,
     java,
@@ -38,7 +38,7 @@ import {
     vue,
   } from "../assets";
   
-  import{mimeda}  from "../assets/company";
+  // import{mimeda}  from "../assets/company";
   export const navLinks = [
     {
       id: "about",
