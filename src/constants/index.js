@@ -135,7 +135,7 @@ import {
             {
       title: "Web Developer",
       company_name: "MIGROS MEDIA DATA-MIMEDA",
-      icon: mi,
+      icon: mimeda,
       iconBg: "#383E56",
       date: "DECEMBER 2024- MAY 2025",
       points: [
