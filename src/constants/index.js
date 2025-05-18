@@ -15,11 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    apple,
     desi,
+    mimeda,
     fsm,
     sap,
     shopify,
@@ -28,7 +25,6 @@ import {
     tripguide,
     threejs,
     c,
-    // mimeda,
     bootstrap,
     flask,
     java,
@@ -37,8 +33,9 @@ import {
     py,
     vue,
   } from "../assets";
+
+  import{mimeda}  from "../assets/company";
   
-  // import{mimeda}  from "../assets/company";
   export const navLinks = [
     {
       id: "about",
@@ -60,7 +57,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Analysis",
       icon: mobile,
     },
     {
@@ -68,7 +65,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Computer Vision",
       icon: creator,
     },
   ];
@@ -133,10 +130,10 @@ import {
   ];
   
   const experiences = [
-            {
+        {
       title: "Web Developer",
       company_name: "MIGROS MEDIA DATA-MIMEDA",
-      icon: mimeda,
+      icon: mi,
       iconBg: "#383E56",
       date: "DECEMBER 2024- MAY 2025",
       points: [
@@ -168,7 +165,6 @@ import {
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Dedicated and experienced full-stack developer with expertise in web development technologies. Successfully designed and developed a virtual screening server for drug repurposing using HTML, CSS, JavaScript, Bootstrap, and PHP. Adept at creating efficient, user friendly, and secure web applications. Seeking opportunities to contribute my skills and knowledge to innovative projects in the field of pharmaceutical research and web development. ",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -233,6 +229,27 @@ import {
   // ];
   
   const projects = [
+        {
+      name: "Dominant Color Detection with Fashion Garments",
+      description:
+        "This project aims to automatically detect the dominant color in fashion garments using image processing and machine learning techniques. By analyzing clothing images, the system identifies the most prominent color, which can be used for fashion search etc.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "machine-learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/mervelil/graduation",
+    },
     {
       name: "Car Rent",
       description:
