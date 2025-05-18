@@ -15,11 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    apple,
     desi,
+    mimeda,
     fsm,
     sap,
     shopify,
@@ -36,6 +33,8 @@ import {
     py,
     vue,
   } from "../assets";
+
+
   
   export const navLinks = [
     {
@@ -58,7 +57,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Analysis",
       icon: mobile,
     },
     {
@@ -66,7 +65,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Computer Vision",
       icon: creator,
     },
   ];
@@ -131,6 +130,31 @@ import {
   ];
   
   const experiences = [
+        {
+      title: "Web Developer",
+      company_name: "MIGROS MEDIA DATA-MIMEDA",
+      icon: mi,
+      iconBg: "#383E56",
+      date: "DECEMBER 2024- MAY 2025",
+      points: [
+        "Developed responsive front-end interfaces using ASP.NET MVC architecture, improving page load time by 70% through optimized rendering and asset management.",
+        "Designed and implemented back-end services using Microsoft Azure, reducing downtime by 80% and improving deployment efficiency.",
+        "Built modern and responsive UI with HTML5, CSS3, and JavaScript, following UX/UI best practices.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+            {
+      title: "Computer Vision Developer",
+      company_name: "MEGA MERCHANT",
+      icon: mi,
+      iconBg: "#383E56",
+      date: "",
+      points: [
+        "Developed AI-based solutions for cleaning, resizing, and whitening backgrounds of fashion product images.",
+        "Researched automating the process of applying the ghost mannequin effect to clothing images.",
+        "Deployed processing images to AWS and generated structured Excel reports for tracking results and used OpenPose and deep learning-based segmentation techniques to detect the front and back sides of garments.",
+      ],
+    },
     {
       title: "Web Developer",
       company_name: "SAPIENZA UNIVERSITY OF ROME",
@@ -141,7 +165,6 @@ import {
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Dedicated and experienced full-stack developer with expertise in web development technologies. Successfully designed and developed a virtual screening server for drug repurposing using HTML, CSS, JavaScript, Bootstrap, and PHP. Adept at creating efficient, user friendly, and secure web applications. Seeking opportunities to contribute my skills and knowledge to innovative projects in the field of pharmaceutical research and web development. ",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -185,27 +208,48 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website  as beautiful as our product, but Merve proved me wrong.",
-      name: "Selin Yilmaz",
-      designation: "CFO",
-      company: "Group Taiga",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Merve does.",
-      name: "Selman Yilmaz",
-      designation: "CEO",
-      company: "Group Taiga",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website  as beautiful as our product, but Merve proved me wrong.",
+  //     name: "Selin Yilmaz",
+  //     designation: "CFO",
+  //     company: "Group Taiga",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Merve does.",
+  //     name: "Selman Yilmaz",
+  //     designation: "CEO",
+  //     company: "Group Taiga",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
 
-  ];
+  // ];
   
   const projects = [
+        {
+      name: "Dominant Color Detection with Fashion Garments",
+      description:
+        "This project aims to automatically detect the dominant color in fashion garments using image processing and machine learning techniques. By analyzing clothing images, the system identifies the most prominent color, which can be used for fashion search etc.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "machine-learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/mervelil/graduation",
+    },
     {
       name: "Car Rent",
       description:
@@ -249,12 +293,12 @@ import {
       source_code_link: "https://github.com/mervelil/Data-mining/blob/main/datascience/fortune_data_mining.ipynb",
     },
     {
-      name: "Trip Guide",
+      name: "E-Commerce Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, and offers curated recommendations for popular destinations.",
+        "A comprehensive cloth purchase platform that allows users to add cards to garments, and offers curated recommendations for popular clothes.",
       tags: [
         {
-          name: "php",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -267,7 +311,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/mervelil/traveltourwebsite",
+      source_code_link: "https://github.com/mervelil/ecommerce",
     },
   ];
   
