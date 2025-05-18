@@ -34,7 +34,7 @@ import {
     vue,
   } from "../assets";
 
-  import{mimeda}  from "../assets/company";
+
   
   export const navLinks = [
     {
